@@ -16,7 +16,7 @@ pip install notebook torch torchvision torchaudio matplotlib streamlit
 ```
 
 ### **🖼️ Download de Imagens:**<br>
-Utilize a extensão do Chrome [Bulk Image Downloader](https://chrome.google.com/webstore/detail/bulk-image-downloader/lamfengpphafgjdgacmmnpakdphmjlji?hl=en) para baixar muitas imagens. Armazene as imagens nas pastas teste, treino e validacao.
+Utilize a extensão do Chrome [Bulk Image Downloader](https://chrome.google.com/webstore/detail/bulk-image-downloader/lamfengpphafgjdgacmmnpakdphmjlji?hl=en) para baixar muitas imagens. Armazene as imagens nas pastas teste, treino e validação.
 
 ## 🚀 Executando o Projeto
 - Faça o download do repositório [aqui](https://github.com/AlessandroVasconcelos/Classificador-de-Imagem-com-Rede-Neural-Convolucional/archive/refs/heads/main.zip), extraia o conteúdo do arquivo zip para o diretório raiz do seu sistema. Isso facilitará a manipulação dos dados e garantirá que a estrutura do projeto seja preservada.
