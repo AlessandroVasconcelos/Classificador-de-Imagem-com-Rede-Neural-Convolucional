@@ -1,35 +1,77 @@
 # Classificador de Imagem com Rede Neural Convolucional (CNN) 🖼️🍕🍔
 
 ## 📌 Visão Geral
-Este repositório apresenta a implementação de um **classificador de imagens utilizando Redes Neurais Convolucionais (CNN)**, o problema foi adaptado para classificar imagens de pizza e hambúrguer. O projeto explora conceitos fundamentais de **Deep Learning**, com foco em CNNs, incluindo:
+<p align="justify">
+Este projeto consiste no treinamento de um modelo de aprendizado profundo para predição de imagens, utilizando Redes Neurais Convolucionais (CNN). O problema foi adaptado para classificar imagens entre duas categorias: pizza e hambúrguer. O repositório apresenta uma abordagem prática de Deep Learning, explorando desde o treinamento do modelo até sua utilização em uma interface interativa. Durante o desenvolvimento, são abordados conceitos fundamentais como:
+</p>
+  
 - Diferenças em relação às redes neurais tradicionais (MLP)
 - Extração automática de características em imagens
 - Conceito de **Transfer Learning**
 - Aplicação prática com interface interativa
 
-## ⚙️ Dependências
+---
 
-Certifique-se de ter o Python instalado. Instale as dependências usando o seguinte comando:
+## 🚀 Como Rodar o Projeto Localmente
 
+Este projeto foi desenvolvido em Python com biblioteca Streamlit para visualização.
+
+### ⚙️ Passo a Passo
+
+**1. Clone o repositório**
 ```bash
-pip install notebook torch torchvision torchaudio matplotlib streamlit
+git clone https://github.com/AlessandroVasconcelos/Classificador-de-Imagem-com-Rede-Neural-Convolucional.git
+cd Classificador-de-Imagem-com-Rede-Neural-Convolucional
+```
+**Crie o ambiente virtual**
+```bash
+python -m venv venv
+```
+Windows:
+```bash
+venv\Scripts\activate
+```
+Linux/Mac:
+```bash
+source venv/bin/activate
 ```
 
-### **🖼️ Download de Imagens:**<br>
-Utilize a extensão do Chrome [Bulk Image Downloader](https://chrome.google.com/webstore/detail/bulk-image-downloader/lamfengpphafgjdgacmmnpakdphmjlji?hl=en) para baixar muitas imagens. Armazene as imagens nas pastas teste, treino e validação.
+**3. Instale as dependências**
 
-## 🚀 Executando o Projeto
-- Faça o download do repositório [aqui](https://github.com/AlessandroVasconcelos/Classificador-de-Imagem-com-Rede-Neural-Convolucional/archive/refs/heads/main.zip), extraia o conteúdo do arquivo zip para o diretório raiz do seu sistema. Isso facilitará a manipulação dos dados e garantirá que a estrutura do projeto seja preservada.
-- Execute o notebook jupyter [Image_Classifier_with_Convolutional_Neural_Network.ipynb](https://github.com/AlessandroVasconcelos/Classificador-de-Imagem-com-Rede-Neural-Convolucional/blob/41aab81b1b7f957ca3b12d02c90358b1f1f43641/Image_Classifier_with_Convolutional_Neural_Network.ipynb) em sua máquina para treinar o modelo da CNN.<br>
-- Para visualizar os resultados, execute [timmaia_app.py](https://github.com/AlessandroVasconcelos/Classificador-de-Imagem-com-Rede-Neural-Convolucional/blob/e82bec10679771c7ef445058ffa702052cf724dd/timmaia_app.py) com o aplicativo Streamlit no terminal:
 ```bash
-streamlit run timmaia_app.py
+pip install -r requirements.txt
 ```
-- Acesse o aplicativo no navegador em localhost e faça os testes com as imagens.
 
+
+**4. Treine o modelo**
+
+Execute o notebook:
+```bash
+Image_Classifier_with_Convolutional_Neural_Network.ipynb
+```
+
+**5. Execute a aplicação**
+```bash
+streamlit run app.py
+```
+
+🌐 Acesso local
+
+A aplicação será aberta automaticamente no navegador:
+
+👉 http://localhost:8501
+
+---
+
+### **🖼️ Dica - Download de Imagens:**<br>
+Se quiser aumentar a quantidade de dados e melhorar o desempenho do modelo, você pode coletar mais imagens para o treinamento. Uma forma prática de fazer isso é utilizando a extensão do Chrome [Bulk Image Downloader](https://chrome.google.com/webstore/detail/bulk-image-downloader/lamfengpphafgjdgacmmnpakdphmjlji?hl=en) , que permite baixar várias imagens rapidamente. Armazene as imagens nas pastas teste, treino e validação.
+
+---
 
 ## 👨‍🏫 Professor/Orientador:
 Gilzamir Ferreira Gomes.
+
+---
 
 ## 📚 Referências:
 
@@ -40,8 +82,6 @@ Gilzamir Ferreira Gomes.
 
 ## 🛠️ Ferramentas Utilizadas
 
-- <a href ="https://colab.google/"><img src="https://img.shields.io/badge/google_colab-F9AB00?style=for-the-badge&logo=googlecolab&logoColor=white"></a>
 <a href ="https://docs.anaconda.com/ae-notebooks/user-guide/basic-tasks/apps/jupyter/index.html"><img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white"></a>
-<a href ="https://www.anaconda.com/download"><img src="https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white"></a>
-- <a href = "https://code.visualstudio.com/"><img src="https://img.shields.io/badge/-Visual%20Studio%20Code-%23333?style=for-the-badge&logo=visual-studio-code&logoColor=%22red%22%20arget=%22_blank"></a>
 <a href = "https://www.python.org/"><img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"></a>
+<a href = "https://code.visualstudio.com/"><img src="https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white"></a>
