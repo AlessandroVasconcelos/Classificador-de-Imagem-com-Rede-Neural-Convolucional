@@ -46,9 +46,7 @@ pip install -r requirements.txt
 **4. Treine o modelo**
 
 Execute o notebook:
-```bash
-Image_Classifier_with_Convolutional_Neural_Network.ipynb
-```
+[Image_Classifier_with_Convolutional_Neural_Network.ipynb](https://github.com/AlessandroVasconcelos/Classificador-de-Imagem-com-Rede-Neural-Convolucional/blob/main/Image_Classifier_with_Convolutional_Neural_Network.ipynb)
 
 **5. Execute a aplicação**
 ```bash
