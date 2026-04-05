@@ -51,7 +51,7 @@ Execute o notebook:
 
 **5. Execute a aplicação**
 ```bash
-streamlit run app.py
+streamlit run timmaia_app.py
 ```
 
 🌐 Acesso local
