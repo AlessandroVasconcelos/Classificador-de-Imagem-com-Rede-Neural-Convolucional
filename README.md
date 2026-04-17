@@ -1,4 +1,4 @@
-# Classificador de Imagem com Rede Neural Convolucional (CNN) 🖼️🍕🍔
+## Classificador de Imagem com Rede Neural Convolucional (CNN) 🖼️🍕🍔
 
 ## 📌 Visão Geral
 <p align="justify">
