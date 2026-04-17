@@ -79,7 +79,7 @@ Gilzamir Ferreira Gomes.
 - 📺 **Canal:** Let's Datah
 
 
-## 🛠️ Ferramentas Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
 <a href ="https://docs.anaconda.com/ae-notebooks/user-guide/basic-tasks/apps/jupyter/index.html"><img src="https://img.shields.io/badge/jupyter-%23FA0F00.svg?style=for-the-badge&logo=jupyter&logoColor=white"></a>
 <a href="https://streamlit.io/" style="text-decoration:none;"><img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"></a>
