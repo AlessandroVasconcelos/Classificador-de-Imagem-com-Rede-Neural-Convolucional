@@ -87,4 +87,7 @@ Gilzamir Ferreira Gomes.
 <a href="https://pytorch.org/vision/stable/index.html"><img src="https://img.shields.io/badge/Torchvision-darkred?style=for-the-badge&logo=PyTorch&logoColor=white"></a>
 <a href="https://numpy.org/"><img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white"></a>
 <a href = "https://www.python.org/"><img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white"></a>
+
+<!--
 <a href = "https://code.visualstudio.com/"><img src="https://custom-icon-badges.demolab.com/badge/Visual%20Studio%20Code-0078d7.svg?logo=vsc&logoColor=white"></a>
+-->
